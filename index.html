@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Time converter</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="app">
+			<main>
+				<h2>Time converter</h2>
+				<form>
+					<div class="inputSection">
+						<label for="timeSeconds">Time (sec)</label>
+						<input type="text" name="timeSeconds" id="timeSeconds" />
+						<button>k</button>
+					</div>
+					<div class="inputSection">
+						<label for="timeMinutes">Time (min)</label>
+						<input type="time" step="1" name="timeMinutes" id="timeMinutes" />
+						<button>k</button>
+					</div>
+				</form>
+			</main>
+		</div>
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>

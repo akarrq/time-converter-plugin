@@ -1,0 +1,14 @@
+{
+	"name": "Time converter",
+	"description": "Convert time from minutes to seconds or seconds to minutes.",
+	"manifest_version": 3,
+	"version": "1.0.0",
+	"action": {
+		"default_popup": "index.html"
+	},
+	"background": {
+		"service_worker": "src/worker.js",
+		"type": "module"
+	},
+	"permissions": ["contextMenus"]
+}
